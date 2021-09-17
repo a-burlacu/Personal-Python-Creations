@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import os
 import pause
 from datetime import datetime
@@ -20,7 +18,7 @@ print (os.getcwd())
 time= datetime(2021,7,14,12,58)
 pause.until(time)
 
-# Force close any program
+# Force close any program, ex: Zoom
 
 os.system("TASKKILL /F /IM Zoom.exe")
 print ("\nThe program was closed at:",time)
