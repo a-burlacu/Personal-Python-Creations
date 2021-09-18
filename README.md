@@ -10,3 +10,7 @@
 [Luhn Algorithm-Credit Card Number Checker](https://github.com/alina-burlacu/Personal-Python-Creations/blob/main/luhn_algorithm.py)[Python]
 <br/>
 *School project that reads CC numbers from file and checks if valid then reports status in separate output file.*
+<br/>
+[Caesar Cipher Program](https://github.com/alina-burlacu/Personal-Python-Creations/blob/main/caesar_cipher.py)[Python]
+<br/>
+*School project that uses a shift cipher to encrypt/decrypt plain text messages.*
