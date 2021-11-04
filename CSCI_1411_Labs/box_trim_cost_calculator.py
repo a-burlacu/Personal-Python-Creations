@@ -4,14 +4,14 @@ You have a box that has a length and width in inches. These lengths and widths a
 You want to put trim around the box, but the local HW store only sells trim in 12” segments. A 12” segment of trim costs $1.88. 
 Task:
 Create a program that does the following things:
-1. Ask the user the length, in inches, of the box.
-2. Ask the user the width, in inches, of the box.
-3. Calculates the perimeter of the box and prints that out (recall perimeter = 2*L + 2*W)
-4. Calculates and the number of segments needed to trim the box (go around the perimeter)
-5. Prints the int version of number of segments
-6. Calculates the cost of the trim 
-7. Calculate the amount of $$ you lost because you could not buy the trim in 
-    increments other than 12” segments 
+    1. Ask the user the length, in inches, of the box.
+    2. Ask the user the width, in inches, of the box.
+    3. Calculates the perimeter of the box and prints that out (perimeter = 2*L + 2*W)
+    4. Calculates and the number of segments needed to trim the box (around the perimeter)
+    5. Prints the int version of number of segments
+    6. Calculates the cost of the trim 
+    7. Calculate the amount of $$ you lost because you could not buy the trim in 
+        increments other than 12” segments 
 """
 def trim_calculator():
 
