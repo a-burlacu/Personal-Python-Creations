@@ -12,9 +12,7 @@ Create a program that does the following things:
 6. Calculates the cost of the trim 
 7. Calculate the amount of $$ you lost because you could not buy the trim in 
     increments other than 12” segments 
-
 """
-
 def trim_calculator():
 
     l = float(input("Enter length in inches: "))
@@ -35,6 +33,4 @@ def trim_calculator():
     extra_trim = round((total_trim-per),2)
     print("You will have",f'{extra_trim:.2f}',"inches trim leftover.")
    
-
-
 trim_calculator()
