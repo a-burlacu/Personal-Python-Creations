@@ -1,10 +1,6 @@
 """
 Task: Take a user input temperature in Fahrenheit and convert it to Celsius.
-
 """
-
-
-
 def temp_converter():
 
     temp = int(input("What is the Fahrenheit temperature? "))
