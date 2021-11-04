@@ -1,8 +1,17 @@
 """
-Trim only comes in 12" segments at $1.88 a piece. 
-Task: 
-Given dimensions of a box, report the perimeter length, number of segments needed,
-total cost of all segments, amount of unused trim, and cost of unused trim.
+Problem Statement:
+You have a box that has a length and width in inches. These lengths and widths are not restricted to be in whole numbers (e.g, the length could be 11.2 inches).
+You want to put trim around the box, but the local HW store only sells trim in 12” segments. A 12” segment of trim costs $1.88. 
+Task:
+Create a program that does the following things:
+1. Ask the user the length, in inches, of the box.
+2. Ask the user the width, in inches, of the box.
+3. Calculates the perimeter of the box and prints that out (recall perimeter = 2*L + 2*W)
+4. Calculates and the number of segments needed to trim the box (go around the perimeter)
+5. Prints the int version of number of segments
+6. Calculates the cost of the trim 
+7. Calculate the amount of $$ you lost because you could not buy the trim in 
+    increments other than 12” segments 
 
 """
 
