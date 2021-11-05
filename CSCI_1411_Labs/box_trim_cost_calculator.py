@@ -32,5 +32,8 @@ def trim_calculator():
 
     extra_trim = round((total_trim-per),2)
     print("You will have",f'{extra_trim:.2f}',"inches trim leftover.")
+
+    extra_cost = extra_trim*1.88
+    print("The amount lost due to excess trim is: $",f'{extra_cost:.2f}')
    
 trim_calculator()
