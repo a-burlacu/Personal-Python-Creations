@@ -60,26 +60,16 @@ def moving_circles():
         line.undraw()
         if i==0:
             circle2.move(d,d)
-            line = Line(circle1.getCenter(),center2)
-            line.setFill("red")
-            line.draw(win)
         elif i==1:
             circle2.move(-d,d)
-            line = Line(circle1.getCenter(),center2)
-            line.setFill("red")
-            line.draw(win)
         elif i==2:
             circle2.move(-d,-d)
-            line = Line(circle1.getCenter(),center2)
-            line.setFill("red")
-            line.draw(win)
         elif i==3:
-            circle2.move(d,-d)
-            line = Line(circle1.getCenter(),center2)
-            line.setFill("red")
-            line.draw(win)
+            circle2.move(d,-d)  
         i += 1 
-        
+        line = Line(center1,circle2.getCenter())
+        line.setFill("red")
+        line.draw(win) 
 
     win.getMouse()
 
