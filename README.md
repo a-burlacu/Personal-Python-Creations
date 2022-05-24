@@ -1,5 +1,6 @@
-<h1 align="center"> Personal Python Creations </h1>
----
+<p align="center">
+  <img width="400" src="personal_python_logo.png" alt="Personal Python Creations">
+</p>
 
 [Automatic Program Terminator](https://github.com/alina-burlacu/Personal-Python-Creations/blob/main/auto_exit_program.py)
 
