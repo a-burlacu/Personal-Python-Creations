@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" src="personal_python_logo.png" alt="Personal Python Creations">
+  <img width="600" src="personal_python_logo.png" alt="Personal Python Creations">
 </p>
 
 [Automatic Program Terminator](https://github.com/alina-burlacu/Personal-Python-Creations/blob/main/auto_exit_program.py)
