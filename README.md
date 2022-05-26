@@ -2,6 +2,10 @@
   <img width="600" src="personal_python_logo.png" alt="Personal Python Creations">
 </p>
 
+[Digital CLock w/GUI](https://github.com/a-burlacu/Personal-Python-Creations/blob/main/Digital-Clock-GUI/main.py)
+
+*Digital clock displays current time in a pop up window, includes Exit button to close application. Created using Tkinter toolkit*
+
 [Automatic Program Terminator](https://github.com/alina-burlacu/Personal-Python-Creations/blob/main/auto_exit_program.py)
 
 *Short program that exits out of any external open program on Windows at a specific time/date.*
